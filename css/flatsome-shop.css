@@ -788,7 +788,7 @@ p.in-stock {
     pointer-events: none;
     transition: opacity 1s;
     animation-delay: 1s;
-    animation: stuckFadeIn .6s
+    animation: stuckFadeIn .3s
 }
 
 @media (max-width: 849px) {

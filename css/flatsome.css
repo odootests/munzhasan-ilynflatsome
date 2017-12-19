@@ -6823,7 +6823,7 @@ img.inline {
     -webkit-backface-visibility: hidden;
     animation-fill-mode: forwards;
     opacity: 0 !important;
-    transition: filter 1.3s, transform 1.6s, opacity 0.7s ease-in
+    transition: filter 0.8s, transform 0.6s, opacity 0.3s ease-in
 }
 
 [data-animate="bounceInLeft"],
@@ -6834,7 +6834,7 @@ img.inline {
 .slider [data-animate="bounceInUp"],
 .slider [data-animate="bounceInDown"],
 .slider [data-animate="bounceInRight"] {
-    transition: transform 0.8s cubic-bezier(0, 0.195, 0, 1.465), opacity 0.5s ease-in
+    transition: transform 0.4s cubic-bezier(0, 0.195, 0, 1.465), opacity 0.5s ease-in
 }
 
 [data-animate="bounceInLeft"],
