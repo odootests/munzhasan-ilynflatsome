@@ -10,14 +10,11 @@
     <link rel="stylesheet" id="flatsome-style-css" href="css/style.css" type="text/css" media="all">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <script async="" src="js/lazyload.1.0.5.min.js"></script>
-    
-    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type='text/javascript' src="js/lazyload.1.0.5.min.js"></script>
+       
     <title>ILYN Flatsome Test</title>
-    
-    
-    <script type="text/javascript" src="js/jquery.js"></script>
-    
+
     <style>
         .bg {
             opacity: 0;
@@ -308,7 +305,7 @@
         }
     </style>
 
-    <script data-no-minify="1" data-cfasync="false">
+<script data-no-minify="1" data-cfasync="false">
         (function(w, d) {
             function a() {
                 var b = d.createElement("script");
@@ -320,11 +317,12 @@
             w.attachEvent ? w.attachEvent("onload", a) : w.addEventListener("load", a, !1)
         })(window, document);
     </script>
+
 </head>
 
 <body class="page-template page-template-page-blank page-template-page-blank-php page page-id-7316 page-child parent-pageid-3021 header-shadow lightbox lazy-icons nav-dropdown-has-arrow">
     
-    <div id="wrapper">
+    <!-- <div id="wrapper"> -->
         
     <main id="main" class="">
         <div id="content" role="main" class="content-area">
@@ -615,7 +613,7 @@
         /* Lazy load icons css file */
         var fl_icons = document.createElement('link');
         fl_icons.rel = 'stylesheet';
-        fl_icons.href = 'http://fzi4k1gk2dw3t0fqy18sw8qi.wpengine.netdna-cdn.com/wp-content/themes/flatsome/assets/css/fl-icons.css';
+        fl_icons.href = 'css/fl-icons.css';
         fl_icons.type = 'text/css';
         var fl_icons_insert = document.getElementsByTagName('link')[0];
         fl_icons_insert.parentNode.insertBefore(fl_icons, fl_icons_insert);
@@ -641,36 +639,32 @@
         });
 
         // Remove from demos
-        jQuery('#menu-item-3219 a, .logo a').each(function() {
-            var old = jQuery(this).attr('href');
-            old = old.replace("&style=layout-vendor-shop", "");
-            old = old.replace("?style=layout-vendor-shop", "");
-            jQuery(this).attr('href', old);
-        });
+        // jQuery('#menu-item-3219 a, .logo a').each(function() {
+        //     var old = jQuery(this).attr('href');
+        //     old = old.replace("&style=layout-vendor-shop", "");
+        //     old = old.replace("?style=layout-vendor-shop", "");
+        //     jQuery(this).attr('href', old);
+        // });
 
-        jQuery('#wrapper .cart-item').hover(function() {
-            jQuery(this).find('a').each(function() {
-                var link = jQuery(this).attr("href");
-                var link_end = "?style=";
-                var style = "layout-vendor-shop";
-                if (link) {
-                    if (link.indexOf('?') > -1) {
-                        link_end = "&style=";
-                    }
-                    if (link.indexOf('#') > -1) {
-                        link_end = "";
-                        style = ""
-                    }
-                    jQuery(this).attr("href", link + link_end + style);
-                }
-            });
-        });
+        // jQuery('#wrapper .cart-item').hover(function() {
+        //     jQuery(this).find('a').each(function() {
+        //         var link = jQuery(this).attr("href");
+        //         var link_end = "?style=";
+        //         var style = "layout-vendor-shop";
+        //         if (link) {
+        //             if (link.indexOf('?') > -1) {
+        //                 link_end = "&style=";
+        //             }
+        //             if (link.indexOf('#') > -1) {
+        //                 link_end = "";
+        //                 style = ""
+        //             }
+        //             jQuery(this).attr("href", link + link_end + style);
+        //         }
+        //     });
+        // });
     </script>
 
-
-
-    <script type="js/scripts.js"></script>
-    
     <script type="text/javascript">
         var flatsomeVars = {
             "ajaxurl": "http:\/\/flatsome3.uxthemes.com\/wp-admin\/admin-ajax.php",
@@ -684,7 +678,7 @@
      <!-- PACKERY.PKGD.MIN.JS IS THE KEY -->
     <script type="text/javascript" src="js/packery.pkgd.min.js"></script>
    
-</div>
+<!-- </div> -->
 
 </body>
 
