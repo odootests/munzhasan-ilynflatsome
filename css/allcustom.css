@@ -68,11 +68,11 @@
 .cart-icon strong,
 [data-color='primary'],
 .is-outline.primary {
-  color: #CE5400
+  color: white;
 }
 
 [data-text-color="primary"] {
-  color: #CE5400!important
+  color: #c1b497!important
 }
 
 .scroll-to-bullets a,
@@ -118,7 +118,7 @@ input[type='submit'].primary,
 input[type='reset'].button,
 input[type='button'].primary,
 .badge-inner {
-  background-color: #CE5400
+  background-color: #ada287;
 }
 
 .nav-vertical.nav-tabs>li.active>a,
@@ -141,7 +141,7 @@ blockquote,
 .slider-nav-circle .flickity-prev-next-button:hover svg,
 .slider-nav-circle .flickity-prev-next-button:hover .arrow,
 .primary.is-outline:hover {
-  border-color: #CE5400
+  border-color: #ada287;
 }
 
 
