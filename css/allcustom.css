@@ -195,13 +195,6 @@ body {
   color: #777
 }
 
-.nav>li>a {
-  font-family: "Open Sans", sans-serif
-}
-
-.nav>li>a {
-  font-weight: 600
-}
 
 h1,
 h2,
@@ -248,22 +241,3 @@ html {
   background-color: #FFF
 }
 
-.page-title-small+main .product-container>.row {
-  padding-top: 0
-}
-
-.label-new.menu-item>a:after {
-  content: "New"
-}
-
-.label-hot.menu-item>a:after {
-  content: "Hot"
-}
-
-.label-sale.menu-item>a:after {
-  content: "Sale"
-}
-
-.label-popular.menu-item>a:after {
-  content: "Popular"
-}
