@@ -34,9 +34,6 @@
   max-height: 70px!important
 }
 
-.search-form {
-  width: 85%
-}
 
 .header-bg-color,
 .header-wrapper {
@@ -147,9 +144,7 @@ blockquote,
   border-color: #CE5400
 }
 
-.nav-tabs>li.active>a {
-  border-top-color: #CE5400
-}
+
 
 .slider .flickity-prev-next-button:hover svg,
 .slider .flickity-prev-next-button:hover .arrow {
@@ -187,25 +182,8 @@ blockquote,
   border-color: #0091ce
 }
 
-body {
-  font-family: "Open Sans", sans-serif
-}
-
-body {
-  color: #777
-}
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.heading-font,
-.off-canvas-center .nav-sidebar.nav-vertical>li>a {
-  font-family: "Arvo", sans-serif
-}
 
 h1,
 h2,

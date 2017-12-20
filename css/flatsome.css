@@ -4,40 +4,14 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
-body {
-    margin: 0
-}
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
+
 main,
-menu,
-nav,
 section,
 summary {
     display: block
 }
 
-audio,
-canvas,
-progress,
-video {
-    display: inline-block
-}
-
-audio:not([controls]) {
-    display: none;
-    height: 0
-}
-
-progress {
-    vertical-align: baseline
-}
 
 template,
 [hidden] {
@@ -159,25 +133,6 @@ textarea {
     overflow: auto
 }
 
-[type="checkbox"],
-[type="radio"] {
-    box-sizing: border-box;
-    padding: 0
-}
-
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-    height: auto
-}
-
-[type="search"] {
-    -webkit-appearance: textfield
-}
-
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none
-}
 
 *,
 *:before,
@@ -792,7 +747,7 @@ object {
     opacity: .6
 }
 
-body,
+/* body,
 .container,
 .full-width .ubermenu-nav,
 .row {
@@ -832,7 +787,7 @@ body.boxed header,
 body.boxed .header-wrapper,
 body.boxed .is-sticky-section {
     max-width: 1170px
-}
+} */
 
 @media screen and (min-width: 850px) {
     body.framed {
